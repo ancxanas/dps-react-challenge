@@ -1,0 +1,47 @@
+.top-controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.input-container,
+.select-container,
+.checkbox-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-controls__search-input,
+.top-controls__city-select {
+	padding: 1rem;
+	width: 15rem;
+}
+
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkbox-label span {
+	display: inline-block;
+	width: 8rem;
+	white-space: normal;
+	line-height: 1.2;
+	font-weight: bold;
+	text-align: start;
+}
+
+.checkbox__container--highlight-oldest {
+	margin-left: 10px;
+}
+
+.checkbox__container--highlight-oldest input {
+	cursor: pointer;
+}
+
+#highlight-oldest-checkbox {
+	width: 40px;
+	height: 40px;
+}
